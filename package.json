@@ -1,0 +1,22 @@
+{
+  "name": "razorpay",
+  "version": "1.0.0",
+  "description": "Payment Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tejas Betwar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "razorpay": "^2.8.2"
+  },
+  "engines": {
+    "node": "16.13.2"
+  }
+}
